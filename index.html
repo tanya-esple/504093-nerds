@@ -2,11 +2,141 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Дизайн-студия Nerds в городе Краснодаре</title>
   </head>
   <body>
+		<header class="main-header">
+			<nav class="main-navigation">
+				<a class="main-header-logo">
+					<img src="img/header-logo.svg" alt="Логотип дизайн-студии Nerds">
+				</a>
+				<ul class="site-navigation">
+					<li><a href="about-us.html">Студия</a></li>
+					<li><a href="clients.html">Клиенты</a></li>
+					<li><a href="store.html">Магазин</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+			</nav>
+			<nav class="user-navigation">
+				<ul>
+									<li><a href="cart.html">Корзина</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+			<h1 class="visually-hidden">Дизайн-студия Nerds в городе Краснодаре</h1>
+			<section class="promo-banner">	
+				<h2 class="visually-hidden">Почему мы</h2>		
+				<b>Долго, дорого, скурпулезно.</b>
+				<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+				<a class="button" href="store.html">Узнать больше</a>
+			</section>
 
+			<section class="services">
+				<h2 class="visually-hidden">Услуги дизайн-студии Nerds</h2>
+				<ul class="services-list">
+					<li class="service-item">
+						<img src="img/web-sites.svg" alt="Веб-сайты">
+						<h3>Веб-сайты</h3>
+						<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+						<a class="button order-web-sites-button" href="store-web-sites.html">Заказать</a>
+					</li>
+					<li class="service-item">
+						<img src="img/apps.svg" alt="Приложения">
+						<h3>Приложения</h3>
+						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+						<a class="button order-apps-button" href="store-apps.html">Заказать</a>
+					</li>
+					<li class="service-item">
+						<img src="img/presentations.svg" alt="Презентации">
+						<h3>Презентации</h3>
+						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+						<a class="button order-presentations-button" href="store-presentations.html">Заказать</a>
+					</li>					
+				</ul>
+			</section>
+
+			<section class="about-us">
+				<h2 class="visually-hidden">О нас</h2>
+				<b>Мы — маленькая, но гордая дизайн-студия из Краснодара. </b>
+				<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p> 
+				<h3>Выполняем заказы на разработку:</h3> 
+				<ul class="order-options-list">
+					<li>Веб-сайтов любой сложности</li>
+					<li>Мобильных приложений для iOS и Android</li>
+					<li>Слайдшоу и видео для корпоративных презентаций</li>
+				</ul>
+				<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Nerds">		
+				<table class="statistics">
+					<caption class="statistics-header">С 2004 года любим точность во всем:</caption>
+					<tr>
+						<td>146%</td>
+						<td>100%</td>
+						<td>50%</td>
+					</tr>
+					<tr>
+						<td>Уровень самоотдачи</td>
+						<td>Соблюдение сроков</td>
+						<td>Минимальная предоплата</td>
+					</tr>
+				</table> 
+			</section>
+
+			<section class="clients">
+				<h2 class="visually-hidden">Наши клиенты</h2>
+				<ul class="clients">
+					<li><img src="img/html-academy-logo.svg" alt="Логотип HTML академии"></li>
+					<li><img src="img/borodinski-logo.svg" alt="Логотип Borodinski"></li>
+					<li><img src="img/pink-logo.svg" alt="Логотип Pink"></li>
+					<li><img src="img/mishka-logo.svg" alt="Логотип Mishka"></li>
+				</ul>
+			</section>
+
+			<section class="contacts">
+				<h2>Nerds Design Studio</h2>
+				<div>
+					<p>
+						191186, Санкт-Петербург,<br>
+						ул. Б. Конюшенная, д. 19/8<br>
+						тел. +7 (812) 275-75-75
+					</p>
+					<button class="button button-contact-us">Напишите нам</button>
+				</div>
+				<img src="img/map-nerds.svg" alt="Наш адрес на карте">
+			</section>	
+
+			<footer>
+				<ul class="socials">
+					<li><a class="social-button" href="#"></a>ВКонтакте</li>
+					<li><a class="social-button" href="#"></a>Facebook</li>
+					<li><a class="social-button" href="#"></a>Instagram</li>					
+				</ul>
+				<div class="final-call-to-action">
+					<b>Давайте дружить, это выгодно!</b>
+					<p>Скидка 10% для друзей из социальных сетей.</p>
+				</div>
+			</footer>
+		
+			<section class="modal modal-write-us">
+				<h2>Напишите нам</h2>
+				<form class="contact-us-form" method="post">
+					<p>
+						<span>Ваше имя:</span>
+						<input type="text" name="user-name" placeholder="Представьтесь, пожалуйста">
+					</p>
+					<p>
+						<span>Ваше e-mail:</span>
+						<input type="text" name="user-email" placeholder="Для отправки ответа">
+					</p>
+					<p>
+						<span>Текст письма:</span>
+						<input type="text" name="user-request" placeholder="В свободной форме">
+					</p>
+					<button class="button button-send-request">Отправить</button>			
+				</form>
+			</section>
+
+		</main>
   </body>
 </html>
