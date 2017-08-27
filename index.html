@@ -34,25 +34,31 @@
 
 		<section class="slider">
 			<div class="container">
-				<div class="slider-1">
-					<img src="http://placehold.it/760x431" alt="Иллюстрация 1" width="760" height="431">
-					<p class="slider_title">Долго, дорого, скурпулезно.</p>
-					<p class="slider_description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-					<a class="slider-button" href="#">Узнать больше</a>
+				<div class="slide_1">
+					<div class="slide_text">
+						<p class="slide_title">Долго, дорого, скурпулезно.</p>
+						<p class="slide_description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+						<a class="slide-button" href="#">Узнать больше</a>
+					</div>
+				<img src="http://placehold.it/760x431" alt="Иллюстрация 1" width="760" height="431">
 				</div>
 
-				<div class="slider-2">
-					<img src="http://placehold.it/760x431" alt="Иллюстрация 2" width="760" height="431">
-					<p class="slider_title">Любим математику как никто другой</p>
-					<p class="slider_description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-					<a class="slider-button" href="#">Узнать больше</a>
+				<div class="slide_2">
+					<div class="slide_text">
+						<p class="slide_title">Любим математику как никто другой</p>
+						<p class="slide_description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+						<a class="slide-button" href="#">Узнать больше</a>
+					</div>
+				<img src="http://placehold.it/760x431" alt="Иллюстрация 2" width="760" height="431">
 				</div>
 
-				<div class="slider-3">
+				<div class="slide_3">
+					<div class="slide_text">
+						<p class="slide_title">Любим математику как никто другой</p>
+						<p class="slide_description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+						<a class="slide-button" href="#">Узнать больше</a>
+					</div>
 					<img src="http://placehold.it/760x431" alt="Иллюстрация 3" width="760" height="431">
-					<p class="slider_title">Любим математику как никто другой</p>
-					<p class="slider_description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-					<a class="slider-button" href="#">Узнать больше</a>
 				</div>
 			</div>
 		</section>
@@ -116,10 +122,10 @@
 
 			<section class="clients">
 				<ul class="clients_list">
-					<li> <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="http://placehold.it/215x100" alt="Логотип HTML академии" width="215" height="100"></a></li>
-					<li> <img src="http://placehold.it/215x100" alt="Логотип Borodinski" width="215" height="100"></li>
-					<li><img src="http://placehold.it/215x100" alt="Логотип Pink" width="215" height="100"></li>
-					<li><img src="http://placehold.it/215x100" alt="Логотип Mishka" width="215" height="100"></li>
+					<li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="http://placehold.it/215x100" alt="Логотип HTML академии" width="215" height="100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/215x100" alt="Логотип Borodinski" width="215" height="100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/215x100" alt="Логотип Pink" width="215" height="100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/215x100" alt="Логотип Mishka" width="215" height="100"></a></li>
 				</ul>
 			</section>
 		</div>
@@ -150,33 +156,33 @@
 			</ul>
 
 			<div class="socials_pros">
-				<p class="socials_pros_title">Давайте дружить, это выгодно!</b>
+				<p class="socials_pros_title">Давайте дружить, это выгодно!</p>
 				<p class="socials_pros_info">Скидка 10% для друзей из социальных сетей.</p>
 			</div>
 
 		</div>
 	</footer>
 		
-		<section class="modal modal_contact_us" id="modal">
-			<div class="modal_contact_us">
-				<h2 class="modal_title">Напишите нам</h2>
-				<form class="contact_us_form" method="post">
-
-					<label for="name">Ваше имя:</label>
-					<input type="text" name="user_name" id="name" placeholder="Представьтесь, пожалуйста">
-					
-					<label for="email">Ваше e-mail:</label>
-					<input type="text" name="user_email" id="email" placeholder="Для отправки ответа">
-
-					<label for="request">Текст письма:</label>
-					<textarea name="user_request" id="request" placeholder="В свободной форме" rows="4"></textarea>
-
-					<button type="submit" class="modal_button">Отправить</button>			
-
-				</form>
+	<section class="modal modal_contact_us" id="modal">
+		<h2 class="modal_title">Напишите нам</h2>
+		<form class="contact_us_form" method="post">
+			<div class="name_input">
+				<label for="name">Ваше имя:</label>
+				<input type="text" name="user_name" id="name" placeholder="Представьтесь, пожалуйста">
 			</div>
-		</section>
+
+			<div class="email_input">
+				<label for="email">Ваше e-mail:</label>
+				<input type="text" name="user_email" id="email" placeholder="Для отправки ответа">
+			</div>
+
+			<label for="request">Текст письма:</label>
+			<textarea name="user_request" id="request" placeholder="В свободной форме" rows="4"></textarea>
+
+			<button type="submit" class="modal_button">Отправить</button>			
+		</form>
+	</section>
 
 
-	</body>
-	</html>
+</body>
+</html>
