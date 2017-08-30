@@ -14,7 +14,7 @@ h1 {
 	font-family: Roboto;
 }
 
-h1.catalog {
+h1 .catalog {
 	font-size: 55px;
 	line-height: 55px;
 	color: #000000;
@@ -31,7 +31,7 @@ h2 {
 	text-transform: uppercase;
 }
 
-h2.modal_title {
+h2 .modal_title {
 	font-size: 45px;
 	line-height: 45px;
 	color: #000000;
@@ -41,7 +41,7 @@ h2.modal_title {
 
 }
 
-h2.contacts_title {
+h2 .contacts_title {
 	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
