@@ -1,36 +1,36 @@
 @font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: normal;
-  src:
-    url("/fonts/roboto.woff2") format("woff2"),
-    url("/fonts/roboto.woff") format("woff");
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: normal;
+	src:
+	url("../fonts/roboto.woff2") format("woff2"),
+	url("../fonts/roboto.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto Bold";
-  font-style: normal;
-  font-weight: bold;
-  src:
-    url("/fonts/robotobold.woff2") format("woff2"),
-    url("/fonts/robotobold.woff") format("woff");
+	font-family: "Roboto Bold";
+	font-style: normal;
+	font-weight: bold;
+	src:
+	url("../fonts/robotobold.woff2") format("woff2"),
+	url("../fonts/robotobold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto Medium";
-  font-style: normal;
-  font-weight: bolder;
-  src:
-    url("/fonts/robotomedium.woff2") format("woff2"),
-    url("/fonts/robotomedium.woff") format("woff");
+	font-family: "Roboto Medium";
+	font-style: normal;
+	font-weight: bolder;
+	src:
+	url("/fonts/robotomedium.woff2") format("woff2"),
+	url("/fonts/robotomedium.woff") format("woff");
 }
 
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 
-  font-family: "Roboto", sans serif;
-  font-weight: normal;
+	font-family: "Roboto", sans serif;
+	font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
 	color: #000000;
@@ -39,7 +39,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 
@@ -67,7 +67,7 @@ a {
 	line-height: 18px;
 	text-transform: uppercase;
 	font-family: "Roboto Medium", sans-serif;
-	color: "#ffffff";
+	color: #ffffff;
 }
 
 .slide_title {
@@ -106,7 +106,7 @@ a {
 
 .statistic_value {
 	font-size: 45px;
-	line-height: 10px;
+	line-height: 10.06px;
 	font-family: "Roboto Bold", sans serif;
 }
 
@@ -141,8 +141,6 @@ a {
 	font-weight: bold;
 }
 
-
-
 .modal_title {
 	font-size: 45px;
 	line-height: 45px;
@@ -157,7 +155,7 @@ a {
 }
 
 .modal_button {
-		background-color: #fb565a;
+	background-color: #fb565a;
 }
 
 .contacts_title {
