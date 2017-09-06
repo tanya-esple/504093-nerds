@@ -1,31 +1,149 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    url("/fonts/roboto.woff2") format("woff2"),
+    url("/fonts/roboto.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
+  font-style: normal;
+  font-weight: bold;
+  src:
+    url("/fonts/robotobold.woff2") format("woff2"),
+    url("/fonts/robotobold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Medium";
+  font-style: normal;
+  font-weight: bolder;
+  src:
+    url("/fonts/robotomedium.woff2") format("woff2"),
+    url("/fonts/robotomedium.woff") format("woff");
+}
+
 body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", sans serif;
+  font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
 	color: #000000;
-	font-weight: normal;
-	font-family: Roboto;
+
+	background-color: #ffffff;
 }
 
-h1 .title_home {
+a {
+  text-decoration: none;
+}
+
+
+.navigation,
+.cart,
+.services_list,
+.service_scope_list,
+.clients_list,
+.socials,
+.sort_products_criterias,
+.sort_products_numerous {
+	list-style: none;
+}
+
+.navigation a,
+.cart a {
+	text-transform: uppercase;
+	color: #000000;
+	line-height: 30px;
+	font-family: "Roboto Medium", sans-serif;
+}
+
+.button {
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-family: "Roboto Medium", sans-serif;
+	color: "#ffffff";
+}
+
+.slide_title {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: bold;
 }
 
-h1 .title_catalog {
-	font-size: 55px;
-	line-height: 55px;
-	font-weight: bold;
+.slide_button {
+	background-color: #fb565a;
 }
 
-h2 .title_services {
+.title_services {
 	font-size: 24px;
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-h2 .modal_title {
+.site_button {
+	background-color: #fb565a;
+}
+
+.app_button {
+	background-color: #00ca74;
+}
+
+.visuals_button {
+	background-color: #efc84a;
+}
+
+.service_scope_title,
+.statistics_header {
+	text-transform: uppercase;
+	font-family: "Roboto Bold", sans serif;
+}
+
+.statistic_value {
+	font-size: 45px;
+	line-height: 10px;
+	font-family: "Roboto Bold", sans serif;
+}
+
+.statistic_criteria {
+	line-height: 18px;
+}
+
+.socials_pros_title {
+	font-size: 36px;
+	line-height: 36px;
+	font-family: "Roboto Bold", sans serif;
+}
+
+.socials_pros_info {
+	line-height: 22px;
+
+}
+
+.contact_us_button {
+	background-color: #fb565a;
+}
+
+.title_home {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+.title_catalog {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: bold;
+}
+
+
+
+.modal_title {
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: bold;
@@ -33,9 +151,23 @@ h2 .modal_title {
 
 }
 
-h2 .contacts_title {
+.contact_us_form label {
+	line-height: 18px;
+	font-family: "Roboto Bold", sans serif;
+}
+
+.modal_button {
+		background-color: #fb565a;
+}
+
+.contacts_title {
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.visually_hidden {
+	position: absolute;
+	display: none;
 }
