@@ -293,7 +293,7 @@ a {
 	width: 260px;
 	height: 50px;
 	color: #000000;
-	font-weight: medium;
+	font-weight: 500;
 	background-color: #eeeeee;
 	border: none;
 	text-align: center;
@@ -371,7 +371,7 @@ a {
 	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 18px;
-	font-weight: medium;
+	font-weight: 500;
 	color: #000000;
 }
 
