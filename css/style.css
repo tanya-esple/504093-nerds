@@ -1,35 +1,8 @@
-@font-face {
-	font-family: "Roboto";
-	font-style: normal;
-	font-weight: normal;
-	src:
-	url("../fonts/roboto.woff2") format("woff2"),
-	url("../fonts/roboto.woff") format("woff");
-}
-
-@font-face {
-	font-family: "Roboto Bold";
-	font-style: normal;
-	font-weight: bold;
-	src:
-	url("../fonts/robotobold.woff2") format("woff2"),
-	url("../fonts/robotobold.woff") format("woff");
-}
-
-@font-face {
-	font-family: "Roboto Medium";
-	font-style: normal;
-	font-weight: bolder;
-	src:
-	url("/fonts/robotomedium.woff2") format("woff2"),
-	url("/fonts/robotomedium.woff") format("woff");
-}
-
 body {
 	margin: 0;
 	padding: 0;
-
-	font-family: "Roboto", sans serif;
+	
+	font-family: "Roboto", sans-serif;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 24px;
@@ -59,14 +32,14 @@ a {
 	text-transform: uppercase;
 	color: #000000;
 	line-height: 30px;
-	font-family: "Roboto Medium", sans-serif;
+	font-weight: 500;
 }
 
 .button {
 	font-size: 16px;
 	line-height: 18px;
 	text-transform: uppercase;
-	font-family: "Roboto Medium", sans-serif;
+	font-weight: 500;
 	color: #ffffff;
 }
 
@@ -101,13 +74,13 @@ a {
 .service_scope_title,
 .statistics_header {
 	text-transform: uppercase;
-	font-family: "Roboto Bold", sans serif;
+	font-weight: bold;
 }
 
 .statistic_value {
 	font-size: 45px;
 	line-height: 10.06px;
-	font-family: "Roboto Bold", sans serif;
+	font-weight: bold;
 }
 
 .statistic_criteria {
@@ -117,7 +90,7 @@ a {
 .socials_pros_title {
 	font-size: 36px;
 	line-height: 36px;
-	font-family: "Roboto Bold", sans serif;
+	font-weight: bold;
 }
 
 .socials_pros_info {
@@ -151,7 +124,7 @@ a {
 
 .contact_us_form label {
 	line-height: 18px;
-	font-family: "Roboto Bold", sans serif;
+	font-weight: bold;
 }
 
 .modal_button {
