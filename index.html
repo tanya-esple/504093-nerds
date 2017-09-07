@@ -3,13 +3,15 @@
 
 <head>
 	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<title>Дизайн-студия Nerds в городе Краснодаре</title>
 </head>
 
 <body>
 
-	<header>
+	<header class="page_header">
 		<div class="container">
 
 			<nav class="site_navigation">
@@ -35,13 +37,13 @@
 
 		<section class="slider">
 			<div class="container">
-				<h2 class="visually_hiden">Как работает дизайн-студия Nerds в городе Краснодаре</h2>
+				<h2 class="visually_hidden">Как работает дизайн-студия Nerds в городе Краснодаре</h2>
 				
 				<div class="slide_first">
 					<div class="slide_text">
 						<p class="slide_title">Долго, дорого, скурпулезно.</p>
 						<p class="slide_description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-						<a class="slide-button" href="#">Узнать больше</a>
+						<a class="button slide_button" href="#">Узнать больше</a>
 					</div>
 				</div>
 
@@ -49,7 +51,7 @@
 					<div class="slide_text">
 						<p class="slide_title">Любим математику как никто другой</p>
 						<p class="slide_description">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-						<a class="slide-button" href="#">Узнать больше</a>
+						<a class="button slide_button" href="#">Узнать больше</a>
 					</div>
 				</div>
 
@@ -57,8 +59,14 @@
 					<div class="slide_text">
 						<p class="slide_title">Только ночь, только хардкор</p>
 						<p class="slide_description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-						<a class="slide_button" href="#">Узнать больше</a>
+						<a class="button slide_button" href="#">Узнать больше</a>
 					</div>
+				</div>
+
+				<div class="slider_controls">
+					<button class="slider_control_button" type="button">Слайд 1</button>
+					<button class="slider_control_button" type="button">Слайд 2</button>
+					<button class="slider_control_button" type="button">Слайд 3</button>
 				</div>
 			</div>
 		</section>
@@ -124,10 +132,10 @@
 			<section class="clients">
 				<h2 class="visually_hidden">Клиенты дизайн-студии Nerds в городе Краснодаре</h2>
 				<ul class="clients_list">
-					<li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.png" alt="Логотип HTML академии" width="199" height="68"></a></li>
-					<li><a href="#"><img src="img/logo-borodinski.png" alt="Логотип Borodinski" width="209" height="90"></a></li>
-					<li><a href="#"><img src="img/logo-pink.png" alt="Логотип Pink" width="185" height="52"></a></li>
-					<li><a href="#"><img src="img/logo-mishka.png" alt="Логотип Mishka" width="173" height="84"></a></li>
+					<li><a href="https://htmlacademy.ru/intensive/htmlcss" class="client_logo"><img src="img/logo-html.png" alt="Логотип HTML академии" width="199" height="68"></a></li>
+					<li><a href="#" class="client_logo"><img src="img/logo-borodinski.png" alt="Логотип Borodinski" width="209" height="90"></a></li>
+					<li><a href="#" class="client_logo"><img src="img/logo-pink.png" alt="Логотип Pink" width="185" height="52"></a></li>
+					<li><a href="#" class="client_logo"><img src="img/logo-mishka.png" alt="Логотип Mishka" width="173" height="84"></a></li>
 				</ul>
 			</section>
 		</div>
@@ -135,13 +143,13 @@
 		<section class="contacts_info">
 			<div class="contacts">
 				<h2 class="visually_hidden">Контакты дизайн-студии Nerds в городе Краснодаре</h2>
-				<h3 class="contacts_title">Nerds Design Studio</h2>
+				<h3 class="contacts_title">Nerds Design Studio</h3>
 					<p class="contacts_adress">
 						191186, Санкт-Петербург,<br>
 						ул. Б. Конюшенная, д. 19/8
 					</p>
 					<p class="contacts_telephone">тел. +7 (812) 275-75-75</p>
-					<a href="#modal">Напишите нам</a>
+					<a href="#modal" class="button contact_us_button">Напишите нам</a>
 				</div>
 			</section>
 
@@ -151,9 +159,9 @@
 			<div class="container">
 
 				<ul class="socials">
-					<li><a class="social_button" href="#">ВКонтакте</a></li>
-					<li><a class="social_button" href="#">Facebook</a></li>
-					<li><a class="social_button" href="#">Instagram</a></li>					
+					<li><a class="social_button button_vk" href="#">ВКонтакте</a></li>
+					<li><a class="social_button button_fb" href="#">Facebook</a></li>
+					<li><a class="social_button button_insta" href="#">Instagram</a></li>					
 				</ul>
 
 				<div class="socials_pros">
@@ -181,7 +189,7 @@
 				<label for="request">Текст письма:</label>
 				<textarea name="user_request" id="request" placeholder="В свободной форме" rows="4"></textarea>
 
-				<button type="submit" class="modal_button">Отправить</button>			
+				<button type="submit" class="button modal_button">Отправить</button>			
 			</form>
 		</section>
 
