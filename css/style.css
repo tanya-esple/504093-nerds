@@ -1,20 +1,17 @@
 body {
 	margin: 0;
 	padding: 0;
-	
 	font-family: "Roboto", Arial, sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
 	color: #283136;
-
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
 a {
 	text-decoration: none;
 }
-
 
 .navigation,
 .cart,
@@ -38,7 +35,7 @@ a {
 .cart a {
 	display: inline-block;
 	text-transform: uppercase;
-	color: #000000;
+	color: #000;
 	line-height: 30px;
 	font-weight: 500;
 }
@@ -69,7 +66,7 @@ a {
 	line-height: 18px;
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #ffffff;
+	color: #fff;
 	display: inline-block;
 	background-color: #fb565a;
 }
@@ -77,7 +74,7 @@ a {
 .slide_title {
 	font-size: 45px;
 	line-height: 45px;
-	color: #000000;
+	color: #000;
 }
 
 .slide_button {
@@ -94,30 +91,27 @@ a {
 
 .slide_button:active {
 	background-color: #d7373b;
-	color: rgba (255, 255, 255, 0.3);
+	color: rgba (#fff, .3);
 }
 
 .slide_first {
-	background-image: url("../img/slide_first.png");
-	background-repeat: no-repeat;
+	background: url("../img/slide_first.png") no-repeat;;
 }
 
 .slide_second {
-	background-image: url("../img/slide_second.png");
-	background-repeat: no-repeat;
+	background: url("../img/slide_second.png") no-repeat;
 }
 
 .slide_third {
-	background-image: url("../img/slide_third.png");
-	background-repeat: no-repeat;
+	background: url("../img/slide_third.png") no-repeat;
 }
 
 .title_services {
 	font-size: 24px;
 	line-height: 30px;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
-	color: #000000;
+	color: #000;
 }
 
 .site_button {
@@ -134,7 +128,7 @@ a {
 
 .site_button:active {
 	background-color: #d7373b;
-	color: rgba (255, 255, 255, 0.3);
+	color: rgba(#fff, .3);
 }
 
 .app_button {
@@ -151,7 +145,7 @@ a {
 
 .app_button:active {
 	background-color: #00aa62;
-	color: rgba (255, 255, 255, 0.3);
+	color: rgba(#fff, .3);
 }
 
 .visuals_button {
@@ -168,21 +162,21 @@ a {
 
 .visuals_button:active {
 	background-color: #e5a722;
-	color: rgba (255, 255, 255, 0.3);
+	color: rgba(#fff, .3);
 }
 
 .service_scope_title,
 .statistics_header {
 	text-transform: uppercase;
-	font-weight: bold;
-	color: #000000;
+	font-weight: 700;
+	color: #000;
 }
 
 .statistic_value {
 	font-size: 45px;
-	line-height: 10.06px;
-	font-weight: bold;
-	color: #000000;
+	line-height: 10px;
+	font-weight: 700;
+	color: #000;
 }
 
 .statistic_criteria {
@@ -234,8 +228,8 @@ a {
 .socials_pros_title {
 	font-size: 36px;
 	line-height: 36px;
-	font-weight: bold;
-	color: #000000;
+	font-weight: 700;
+	color: #000;
 }
 
 .socials_pros_info {
@@ -254,14 +248,14 @@ a {
 .title_home {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: bold;
-	color: #000000;
+	font-weight: 700;
+	color: #000;
 }
 
 .title_catalog {
 	font-size: 55px;
 	line-height: 55px;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .price_label {
@@ -281,19 +275,18 @@ a {
 }
 
 .filter_input:hover + label {
-	color: #000000;
+	color: #000;
 }
 
 .filter_input:disable + label {
-	color: #000000;
+	color: #000;
 	opacity: 0.3;
 }
 
 .filter_button {
 	width: 260px;
 	height: 50px;
-	color: #000000;
-	font-weight: 500;
+	color: #000;
 	background-color: #eeeeee;
 	border: none;
 	text-align: center;
@@ -305,7 +298,7 @@ a {
 
 .filter_button:active {
 	background-color: #d5d5d5;
-	color: rgba(0,0,0, 0.3);
+	color: rgba(#000, .3);
 }
 
 .filter_title,
@@ -313,9 +306,9 @@ a {
 .item_title {
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
-	color: #000000;
+	color: #000;
 }
 
 .product_info {
@@ -328,14 +321,14 @@ a {
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(0, 0, 0, 0.3);
+	color: rgba(#000,.3);
 }
 
 .sort_link:hover {
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(0, 0, 0, 0.6);
+	color: rgba(#000, .6);
 }
 
 .sort_link:active,
@@ -343,7 +336,7 @@ a {
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 30px;
-	color: #000000;
+	color: #000;
 }
 
 .price_button {
@@ -372,7 +365,7 @@ a {
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: 500;
-	color: #000000;
+	color: #000;
 }
 
 .pagination_item {
@@ -402,29 +395,25 @@ a {
 }
 
 .active_page_btn {
-	background-color: #ffffff;
+	background-color: #fff;
 	box-shadow: inset 0 0 0 3px #dbdbdb;
 }
-
-
-
 
 .modal_title {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: none;
-	color: #000000;
+	color: #000;
 }
 
 .contact_us_form {
 	line-height: 18px;
-	font-weight: bold;
-	color: #000000;
+	font-weight: 700;
+	color: #000;
 }
 
 .contact_us_form input[type="text"],
-.contact_us_form input[type="password"],
 .contact_us_form textarea {
 	line-height: 18px;
 	color: #444444;
@@ -432,19 +421,23 @@ a {
 }
 
 .contact_us_form input[type="text"]:hover,
-.contact_us_form input[type="password"]:hover,
 .contact_us_form textarea:hover {
 	border: 2px solid #b4b9bb;
 }
 
 .contact_us_form input[type="text"]:focus,
-.contact_us_form input[type="password"]:focus,
 .contact_us_form textarea:focus {
-	color: #000000;
-	border: 2px solid #000000;
+	color: #000;
+	border: 2px solid #000;
 	outline: none;
 }
 
+/*
+.contact_us_form input:required:invalid,
+.contact_us_form textarea:reqired:invalid  {
+	border: 2px solid red;
+	color: red;
+} */
 
 .modal_button {
 	background-color: #fb565a;
@@ -454,9 +447,9 @@ a {
 .contacts_title {
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
-	color: #000000;	
+	color: #000;	
 }
 
 .contacts_info {
@@ -466,10 +459,8 @@ a {
 }
 
 .contacts {
-	background-color: #ffffff;
+	background-color: #fff;
 }
-
-
 
 .visually_hidden {
 	position: absolute;
