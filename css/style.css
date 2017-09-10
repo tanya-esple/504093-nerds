@@ -417,7 +417,6 @@ main.inner_page .container {
 
 .sort_products_criterias li {
 	margin-right: 15px;
-
 }
 
 .sort_products_numerous {
@@ -438,7 +437,6 @@ main.inner_page .container {
 	height: 10px;
 	color: transparent;
 	margin: 0;
-
 }
 
 .sort_products_numerous a:first-child {
@@ -870,10 +868,6 @@ main.inner_page .container {
 	text-transform: uppercase;
 	color: #000;	
 }
-
-
-
-
 
 .visually_hidden {
 	position: absolute;
