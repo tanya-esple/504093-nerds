@@ -14,7 +14,7 @@
 	<header class="page_header">
 		<div class="container">
 			<nav class="site_navigation">
-				<a class="header_logo">
+				<a class="header_logo" href="index.html">
 					<img src="img/nerds-logo.svg" alt="Логотип дизайн-студии Nerds" width="160" height="65">
 				</a>
 				<ul class="navigation">
@@ -28,16 +28,12 @@
 				</div>
 			</nav>
 		</div>
-	</header>
-	
-	<main class="inner_page">
 		<div class="container">
 			<h1 class="title_catalog">Магазин готовых шаблонов</h1>
 		</div>
-
-		<div class="main_content">
-
-		</div>
+	</header>
+	
+	<main class="inner_page">
 		<div class="container">
 			<div class="filters">
 
@@ -67,45 +63,45 @@
 				<form class="custom_filter" method="get" action="#">
 
 					<fieldset class="group_filter">
-						<legend class="filter_title">Сетка</legend>
+						<legend class="filter_title">Сетка:</legend>
 						<ul class="canvas_filter">
 							<li>
-								<input type="radio" name="scheme_type" id="adaptive" class="filter_input" checked>
+								<input type="radio" name="scheme_type" id="adaptive" class="filter_input visually_hidden" checked>
 								<label for="adaptive">Адаптивная</label>
 							</li>
 							<li>
-								<input type="radio" name="scheme_type" id="fixed" class="filter_input">
+								<input type="radio" name="scheme_type" id="fixed" class="filter_input visually_hidden">
 								<label for="fixed">Фиксированная</label>
 							</li>
 							<li>
-								<input type="radio" name="scheme_type" id="flex" class="filter_input">
+								<input type="radio" name="scheme_type" id="flex" class="filter_input visually_hidden">
 								<label for="flex">Резиновая</label>
 							</li>
 						</ul>
 					</fieldset>
 
 					<fieldset class="group_filter">
-						<legend class="filter_title">Особенности</legend>
+						<legend class="filter_title">Особенности:</legend>
 
 						<ul class="specs_filter">
 							<li>
-								<input type="checkbox" name="spec_slider" id="slider" class="filter_input">
+								<input type="checkbox" name="spec_slider" id="slider" class="filter_input visually_hidden">
 								<label for="slider">Слайдер</label>
 							</li>
 							<li>
-								<input type="checkbox" name="spec_benefits" id="benefits" class="filter_input">
+								<input type="checkbox" name="spec_benefits" id="benefits" class="filter_input visually_hidden">
 								<label for="benefits">Блок преимуществ</label>
 							</li>
 							<li>
-								<input type="checkbox" name="spec_news" id="news" class="filter_input">
+								<input type="checkbox" name="spec_news" id="news" class="filter_input visually_hidden">
 								<label for="news">Новости</label>
 							</li>
 							<li>
-								<input type="checkbox" name="spec_gallery" id="gallery" class="filter_input">
+								<input type="checkbox" name="spec_gallery" id="gallery" class="filter_input visually_hidden">
 								<label for="gallery">Галерея</label>
 							</li>
 							<li>
-								<input type="checkbox" name="spec_cart" id="cart" class="filter_input">
+								<input type="checkbox" name="spec_cart" id="cart" class="filter_input visually_hidden">
 								<label for="cart">Корзина</label>
 							</li>
 						</ul>
@@ -121,15 +117,12 @@
 				<nav class="sort_products">
 
 					<span class="sort_products_title">Сортировать:</span>
-					<ul class="sort_products_criterias">
+					<ul class="sort_products_opts">
 						<li><a href="catalog.html" class="sort_link current_sort">По цене</a></li>
 						<li><a href="#" class="sort_link">По типу</a></li>
 						<li><a href="#" class="sort_link">По названию</a></li>
-					</ul>
-
-					<ul class="sort_products_numerous">
-						<li><a href="catalog.html" class="current_sort">По убыванию</a></li>
-						<li><a href="#">По возрастанию</a></li>
+						<li><a href="#" class="sort_icon_down current_sort_icon">По убыванию</a></li>
+						<li><a href="#" class="sort_icon_up">По возрастанию</a></li>
 					</ul>
 
 				</nav>
@@ -138,25 +131,25 @@
 					<article class="product_item">
 						<img src="img/img-sedona.jpg" alt="Шаблон Sedona" width="360" height="576">
 						<div class="overlay">
-							<a href="#" class="item_title">Sedona</a>
-							<p class="product_info">Информационный сайт для туристов</p>
+							<h2 class="item_title"><a href="#" class="item_title_link">Sedona</a></h2>
+							<p class="product_info">Информационный сайт<br> для туристов</p>
 							<a href="#" class="button price_button">9 900 руб.</a>
 						</div>
 					</article>
 
-					<article>
+					<article class="product_item">
 						<img src="img/img-pink.jpg" alt="Шаблон Pink" width="360" height="576">
 						<div class="overlay">
-							<a href="#" class="item_title">Pink App</a>
-							<p class="product_info">Продуктовый лендинг приложения для iOS и Android</p>
+							<h2 class="item_title"><a href="#" class="item_title_link">Pink App</a></h2>
+							<p class="product_info">Продуктовый лендинг<br> приложения для iOS и Android</p>
 							<a href="#" class="button price_button">9 900 руб.</a>
 						</div>
 					</article>
 
-					<article>
+					<article class="product_item">
 						<img src="img/img-barbershop.jpg" alt="Шаблон Borodinski" width="360" height="576">
 						<div class="overlay">
-							<a href="#" class="item_title">Barbershop</a>
+							<h2 class="item_title"><a href="#" class="item_title_link">Barbershop</a></h2>
 							<p class="product_info">
 								Сайт салоны красоты. <br>
 								Для мужчин, да.
@@ -165,29 +158,29 @@
 						</div>
 					</article>
 
-					<article>
+					<article class="product_item">
 						<img src="img/img-mishka.jpg" alt="Шаблон Mishka" width="360" height="576">
 						<div class="overlay">
-							<a href="#" class="item_title">Mishka</a>
-							<p class="product_info">Интернет-магазин вязаных игрушек</p>
+							<h2 class="item_title"><a href="#" class="item_title_link">Mishka</a></h2>
+							<p class="product_info">Интернет-магазин<br> вязаных игрушек</p>
 							<a href="#" class="button price_button">9 900 руб.</a>
 						</div>
 					</article>
 
-					<article>
+					<article class="product_item">
 						<img src="img/img-aplus.jpg" alt="Шаблон A Plus" width="360" height="576">
 						<div class="overlay">
-							<a href="#" class="item_title">A Plus</a>
-							<p class="product_info">Лендинг курсов повышения квалификации</p>
+							<h2 class="item_title"><a href="#" class="item_title_link">A Plus</a></h2>
+							<p class="product_info">Лендинг курсов повышения<br> квалификации</p>
 							<a href="#" class="button price_button">9 900 руб.</a>
 						</div>
 					</article>
 
-					<article>
+					<article class="product_item">
 						<img src="img/img-kvast.jpg" alt="Шаблон Кваст" width="360" height="576">
 						<div class="overlay">
-							<a href="#" class="item_title">Кваст</a>
-							<p class="product_info">Промо-сайт производителя крафтового кваса</p>
+							<h2 class="item_title"><a href="#" class="item_title_link">Кваст</a></h2>
+							<p class="product_info">Промо-сайт производителя<br> крафтового кваса</p>
 							<a href="#" class="button price_button">9 900 руб.</a>
 						</div>
 					</article>
@@ -225,6 +218,7 @@
 
 		<section class="get_social">
 			<div class="container">
+				<h2 class="visually_hidden">Дизайн-студия Nerds в социальных сетях</h2>
 				<ul class="socials">
 					<li><a class="social_button button_vk" href="#">ВКонтакте</a></li>
 					<li><a class="social_button button_fb" href="#">Facebook</a></li>
